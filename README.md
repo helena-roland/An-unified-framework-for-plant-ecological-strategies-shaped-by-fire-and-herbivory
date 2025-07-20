@@ -13,9 +13,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ilamatos/xylem_implosion_safety">
-    <img src="figures/macrosystems_logo_long (1).png" alt="Logo" width="300" height="80">
+  <a href="https://github.com/helena-roland/An-unified-framework-for-plant-ecological-strategies-shaped-by-fire-and-herbivory">
+    <img src="logo.png" alt="Logo" width="700" height="400">
   </a>
+  
 
 <h3 align="center">Testing the Fire-Herbivory Framework in Tropical Montane Grasslands</h3>
 
@@ -78,17 +79,6 @@ We expect community-level traits in this grassland to reflect fire–herbivory d
 
 To test these hypotheses, we measured six functional traits related to the avoidance/attraction and tolerance axes in 40 species. We calculated phylogenetic signals to assess trait conservation and evolution. We also quantified flammability traits for 11 species to evaluate the framework’s predictive power and measured CSR strategies to examine relationships between flammability and plant ecological strategies. Our approach combined trait-based ecology with phylogenetic analyses to uncover how evolutionary history shapes species’ responses to the combined disturbances of fire and herbivory.
 
-<!-- FIGURE 1 -->
-<br />
-<div align="left">
-  <a href="https://github.com/ilamatos/xylem_implosion_safety">
-    <img src="figures/Figure_1.png" alt="Logo" width="2500" height="500">
-  </a>
-
-<h3 align="left">Figure 1</h3>
-Scaling scenarios for the log–log relationship between leaf conduit double-wall thickness (T) and maximum lumen diameter (D) for three hypothetical species (yellow, green, and orange). (a) Species have same slope (b coefficient) but different y-intercepts (a coefficients): y-intercept >1 (yellow line) - conduits have thicker cell walls relative to their diameter (i.e. higher lignification), potentially resulting in higher implosion safety across the entire venation network; y-intercept =1 (green line) - conduits have lower degree of lignification; y-intercept < 1 (orange line) - conduits have thinner cells walls relative to their diameter (i.e. lower lignification), potentially resulting in lower implosion safety across the entire leaf venation network. (b) Illustrations of how conduits T and D are expected to vary across vein sizes in each of the three scaling scenarios with same slope but different y-intercepts. (c) Species have same y-intercept but different slopes: slope >1 (yellow line) - as conduits become wider their cell walls become proportionally thicker, resulting in greater xylem reinforcement and lower vulnerability to implosion in larger conduits; slope = 1 (green line ) - conduits diameter and thickness increase proportionally, resulting in a constant safety implosion across conduits of different diameters; slope < 1 (orange line) - as conduits become wider their cell walls become proportionally thinner, resulting in greater xylem reinforcement in smaller conduits, but potentially higher vulnerability to implosion in larger conduits. (d) Illustrations of how conduits T and D are expected to vary across vein sizes in each of the three scaling scenarios of same y-intercept but different slopes.
-
-<p align="left">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- STATISTICAL ANALYSIS -->
 ## Statistical analysis
@@ -116,7 +106,7 @@ You will need R version 4.3.1 (or greater) and the following R-packages installe
    ```
 ## Scripts Overview
 
-This project includes three main R scripts that together perform the complete analysis:
+This project includes two main R scripts that together perform the complete analysis:
 
 1. **Firexherbivory-framework.R**  
    This single script is divided into two parts:  
@@ -142,62 +132,27 @@ This project includes three main R scripts that together perform the complete an
 
 Helena Roland - helenarrlima1995@gmail.com
 
-Project Link: [https://github.com/ilamatos/xylem_implosion_safety](https://github.com/ilamatos/xylem_implosion_safety)
+Project Link: [https://github.com/helena-roland/An-unified-framework-for-plant-ecological-strategies-shaped-by-fire-and-herbivory)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- REFERENCES -->
 ## References
 
-* []()Benjamini Y and Hochberg Y (1995) Journal of the Royal Statistical Society Series B
-* []()Blackman CJ et al (2010) New Phytologist
-* []()Blackman CJ et al (2018) Annals of Botany
-* []()Brodribb TJ and Holbrook MN (2005) Plant Physiology
-* []()Escheverria A et al (2022) American Journal of Botany
-* []()Hacke UG et al (2001) Oecologia 
-* []()Hacke UG et al (2004) American Journal of Botany
-* []()Jacobson AL et al (2005) Plant Physiology
-* []()Pittermann J et al (2016) Plant Cell and Environment
-* []()Pratt RB and Jacobsen AL (2017)
-* []()R Foundation for Statistical Computing (2023) Plant Cell and Environment
-* []()Sperry JS (2003) International Journal of Plant Sciences
-* []()Sperry JS and Hacke UG (2004) American Journal of Botany
-* []()Sperry JS et al (2006) American Journal of Botany
-* []()Warton DI et al (2011) Methods in Ecology and Evolution
-* []()Zhang YJ et al (2023) New Phytologist
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* []()Archibald S, Hempson GP, Lehmann C. 2019. A unified framework for plant life‐history strategies shaped by fire and herbivory. New Phytologist 224: 1490–1503.
 
+* []()Aximoff I. 2011. O que perdemos com a passagem do fogo pelos campos de altitude do estado do Rio de Janeiro? Biodiversidade Brasileira 1: 180–200.
 
+* []()Aximoff I, Rodrigues RDC. 2011. Histórico dos incêndios florestais no Parque Nacional do Itatiaia. Ciência Florestal 21: 83–92.
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ilamatos/xylem_implosion_safety.svg?style=for-the-badge
-[contributors-url]: https://github.com/ilamatos/xylem_implosion_safety/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ilamatos/xylem_implosion_safety.svg?style=for-the-badge
-[forks-url]: https://github.com/ilamatos/xylem_implosion_safety/network/members
-[stars-shield]: https://img.shields.io/github/stars/ilamatos/xylem_implosion_safety.svg?style=for-the-badge
-[stars-url]: https://github.com/ilamatos/xylem_implosion_safety/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ilamatos/xylem_implosion_safety.svg?style=for-the-badge
-[issues-url]: https://github.com/ilamatos/xylem_implosion_safety/issues
-[license-shield]: https://img.shields.io/github/license/ilamatos/xylem_implosion_safety.svg?style=for-the-badge
-[license-url]: https://github.com/ilamatos/xylem_implosion_safety/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+* []()Behling H. 1997. Late Quaternary vegetation, climate and fire history of the Araucaria forest and campos region from Serra Campos Gerais, ParanáState (South Brazil). Review of Palaeobotany and Palynology 97: 109–121.
 
+* []()Behling H, Pillar VD. 2007. Late Quaternary vegetation, biodiversity and fire dynamics on the southern Brazilian highland and their implication for conservation and management of modern Araucaria forest and grassland ecosystems. Philosophical Transactions of the Royal Society B: Biological Sciences 362: 243–251.
+
+* []()Behling H, Safford HD. 2010. Late‐glacial and Holocene vegetation, climate and fire dynamics in the Serra dos Órgãos, Rio de Janeiro State, southeastern Brazil. Global Change Biology 16: 1661–1671.
+
+* []()Blomberg SP, Garland T, Ives AR. 2003. Testing for phylogenetic signal in comparative data: behavioral traits are more labile. Evolution 57: 717–745.
+
+* []()Jin Y, Qian H. 2019. V.PhyloMaker: an R package that can generate very large phylogenies for vascular plants. Ecography 42: 1353–1359.
+
+* []()Veríssimo, NP, Safford HD, Behling H. 2012. Holocene vegetation and fire history of the Serra do Caparaó, SE Brazil. The Holocene 22: 1243–1250.
