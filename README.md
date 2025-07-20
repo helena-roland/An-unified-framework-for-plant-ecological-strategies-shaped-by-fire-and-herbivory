@@ -23,14 +23,9 @@
   <p align="center">
    Data and Rcode to reproduce analysis of the manuscript entitled "An unified framework for plant ecological strategies shaped by fire and herbivory: the example of tropical montane grasslands"
     <br />
-    <a href="https://github.com/ilamatos/xylem_implosion_safety"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/helena-roland/An-unified-framework-for-plant-ecological-strategies-shaped-by-fire-and-herbivory"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ilamatos/xylem_implosion_safety">View Demo</a>
-    ·
-    <a href="https://github.com/ilamatos/xylem_implosion_safety/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ilamatos/xylem_implosion_safety/issues">Request Feature</a>
   </p>
 </div>
 
@@ -38,18 +33,14 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
-    <li>
-      <a href="#about-the-project">About the project </a>
-      </ul>
-    <li>
-      <a href="#statistical-analysis">Statistical Analysis</a>
-    </ul>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      </ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+   <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About the project</a></li>
+    <li><a href="#statistical-analysis">Statistical Analysis</a></li>
+    <li><a href="#getting-started">Getting Started</a>
+      <ul>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#scripts-overview">Scripts Overview</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -104,7 +95,7 @@ You will need R version 4.3.1 (or greater) and the following R-packages installe
    ```sh
    git clone https://github.com/helena-roland/An-unified-framework-for-plant-ecological-strategies-shaped-by-fire-and-herbivory.git
    ```
-## Scripts Overview
+### Scripts Overview
 
 This project includes two main R scripts that together perform the complete analysis:
 
@@ -119,7 +110,7 @@ This project includes two main R scripts that together perform the complete anal
 
 ---
 
-## How to use the R Project and run the scripts
+### How to use the R Project and run the scripts
 
 - Open the RStudio Project file `Firexherbivory-framework.Rproj` to automatically set the working directory and load the project environment.  
 - Run the script `phylogenetic_signal_analysis.R` to generate the phylogenetic tree and analyze trait phylogenetic signals.  
